@@ -1,5 +1,5 @@
 //fetch services api
-fetch('http://localhost:3000/services')
+fetch('https://vlavaapi-h745.onrender.com/services')
       .then(response => response.json())
       .then(json => {
         let services=document.getElementById("services");
@@ -23,7 +23,7 @@ fetch('http://localhost:3000/services')
 
       //fetch aboutus api
 
-fetch('http://localhost:3000/aboutUs')
+fetch('https://vlavaapi-h745.onrender.com/aboutUs')
       .then(response => response.json())
       .then(json => {
         let aboutUs=document.getElementById("aboutUs");
